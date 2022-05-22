@@ -1,7 +1,7 @@
 import React from 'react';
 import './Card.css'
 const Card = (props) => {
-    const {name,image,address,city,state,zip,reviewCount,noOfBedRoom,noOfGuests,status}=props.hotel;
+    const {name,image,address,city,state,zip,review,reviewCount,noOfBedRoom,noOfGuests,status}=props.hotel;
     return (
         <div className='card'>
             {image ?
@@ -27,10 +27,10 @@ const Card = (props) => {
                     </div>
                     <div className="review-container">
                         <div className="review">
-
+                            {review}
                         </div>
                         <div className="review-count">
-                            
+                        {reviewCount +' reviews'}
                         </div>
 
                     </div>
