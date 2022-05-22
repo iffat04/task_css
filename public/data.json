@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Hotel X",
+    "address": "X Street",
+    "city": "X City",
+    "state": "X State",
+    "zip": "XXXXX",
+    "review": "X Review",
+    "reviewCount": 10,
+    "noOfBedRoom": 10,
+    "noOfGuests": 10,
+    "areaType": "X Area",
+    "image": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+    "status": "DRAFT"
+  },
+  {
+    "name": "Hotel Y",
+    "address": "Y Street",
+    "city": "Y City",
+    "state": "Y State",
+    "zip": "YYYYY",
+    "review": "Y Review",
+    "reviewCount": 5,
+    "noOfBedRoom": 4,
+    "noOfGuests": 10,
+    "areaType": "Y Area",
+    "image": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "status": "ACTIVE"
+  },
+  {
+    "name": "Hotel Z",
+    "address": "Z Street",
+    "city": "Z City",
+    "state": "Z State",
+    "zip": "ZZZZZ",
+    "review": "Z Review",
+    "reviewCount": 4,
+    "noOfBedRoom": 5,
+    "noOfGuests": 4,
+    "areaType": "Z Area",
+    "image": "https://images.pexels.com/photos/11943236/pexels-photo-11943236.jpeg?cs=srgb&dl=pexels-stephen-tam-11943236.jpg&fm=jpg",
+    "status": "DRAFT"
+  },
+  {
+    "name": "Hotel Z1",
+    "address": "Z1 Street",
+    "city": "Z1 City",
+    "state": "Z1 State",
+    "zip": "ZZZ111",
+    "review": "Z1 Review",
+    "reviewCount": 6,
+    "noOfBedRoom": 4,
+    "noOfGuests": 6,
+    "areaType": "Z1 Area",
+    "image": null,
+    "status": "DRAFT"
+  }
+]
