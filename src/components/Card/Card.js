@@ -4,11 +4,7 @@ const Card = (props) => {
     const {name,image,address,city,state,zip,review,reviewCount,noOfBedRoom,noOfGuests,status}=props.hotel;
     return (
         <div className='card'>
-            {
-                status === 'DRAFT' && <div className='draft'>
-                    <h1>DRAFT</h1>
-                </div>
-            }
+          
 
             {image ?
                 <div className='card-img'>
@@ -24,6 +20,11 @@ const Card = (props) => {
 
              {/*card details text bottom*/}
             <div className='card-details'>
+            {
+                status === 'DRAFT' && <div className='draft'>
+                    <h1>DRAFT</h1>
+                </div>
+            }
                 <div className="address-review">
                     <div className="address">
                         <span className='icon-address'><i class="fas fa-map-marker-alt"></i></span>
