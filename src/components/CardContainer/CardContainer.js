@@ -14,6 +14,12 @@ const CardContainer = () => {
             <div className='card-container'>
                 {hotelInfo.map(hotel=><Card key={hotel.name+hotel.city} hotel={hotel} />)
                 }
+                <div className='add-hotel'>
+                  <h2>Add New</h2>
+                  <span className="plus">
+                      +
+                  </span>
+                </div>
             </div>
        
         </div>

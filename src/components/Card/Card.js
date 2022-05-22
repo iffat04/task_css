@@ -4,13 +4,19 @@ const Card = (props) => {
     const {name,image,address,city,state,zip,review,reviewCount,noOfBedRoom,noOfGuests,status}=props.hotel;
     return (
         <div className='card'>
+            {
+                status == 'DRAFT' && <div className='draft'>
+                    <h1>DRAFT</h1>
+                </div>
+            }
+
             {image ?
                 <div className='card-img'>
                     <img src={image} alt={name} />
                 </div>
-            // <img src={image} alt={name} />    
-            :
-            <div className='empty-img'>
+                // <img src={image} alt={name} />    
+                :
+                <div className='empty-img'>
             </div>    
             }
             <div className='round-details-button'>
@@ -35,10 +41,11 @@ const Card = (props) => {
 
                     </div>
                 </div>
-                <hr/>
+                {/* <hr/> */}
                 <div className="more-details">
-                    
-
+                    <span>{noOfBedRoom} Bedrooms</span><span className="dot-details"></span>
+                    <span>Up to {noOfGuests} Guests</span><span className="dot-details"></span>
+                    <span>Kids Friendly Area</span>
                 </div>
             </div>
         </div>
