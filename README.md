@@ -1,4 +1,4 @@
 # Project Link
 
-[click here](https://github.com/facebook/create-react-app).
-<img src="./ss.png" alt=""> 
+[click here](https://designghuddy.netlify.app/).
+<img src="ss.png" alt=""> 
