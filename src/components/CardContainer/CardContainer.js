@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import AddCard from '../AddCard/AddCard';
 import Card from '../Card/Card';
 import './CardContainer.css'
 const CardContainer = () => {
@@ -14,12 +15,7 @@ const CardContainer = () => {
             <div className='card-container'>
                 {hotelInfo.map(hotel=><Card key={hotel.name+hotel.city} hotel={hotel} />)
                 }
-                <div className='add-hotel'>
-                  <h2>Add New</h2>
-                  <span className="plus">
-                      +
-                  </span>
-                </div>
+                <AddCard/>
             </div>
        
         </div>

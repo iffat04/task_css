@@ -15,29 +15,7 @@
     padding: 0 6vw;
     width: 100%;
 }
-.add-hotel{
-    height: 260px ;
-    width: 270px;
-    border: none;
-    border-radius: 20px;
-    box-shadow: 2px 2px 18px 3px rgb(223, 220, 220);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #5eb4df;
-}
-.plus{
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background-color: #5eb4df;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-}
+
 
 @media screen and (max-width: 720px) {
   .card-container {

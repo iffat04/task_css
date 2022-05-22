@@ -37,6 +37,7 @@
     width: var(--card-w);
 }
 
+/*...............Card details...............*/
 .card-details{
     position: absolute;
     z-index: 99;
@@ -64,14 +65,19 @@
     
 }
 
+.round-details-button:hover{
+    box-shadow: 0px 0px 2px 2px rgb(102, 191, 226);
+}
+
 .round-details-button .dot{
-    height: 4px;
-    width: 4px;
+    height: 3px;
+    width: 3px;
     background-color:  var(--accent-color);
     border-radius: 50%;
     box-shadow: 0 7px 0  var(--accent-color), 0 -7px 0  var(--accent-color);
 }
 
+/*...........address and all info bottom section of card...........*/
 .address{
     display: flex;
     align-items: center;
@@ -142,6 +148,7 @@
     font-size: 1rem;
 }
 
+/*...........draft style.........*/
 .draft{
     height: var(--card-h);
     width: var(--card-w);
@@ -150,6 +157,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
+
 }
 .draft h1{
     margin: 0;

@@ -5,7 +5,7 @@ const Card = (props) => {
     return (
         <div className='card'>
             {
-                status == 'DRAFT' && <div className='draft'>
+                status === 'DRAFT' && <div className='draft'>
                     <h1>DRAFT</h1>
                 </div>
             }
@@ -14,7 +14,6 @@ const Card = (props) => {
                 <div className='card-img'>
                     <img src={image} alt={name} />
                 </div>
-                // <img src={image} alt={name} />    
                 :
                 <div className='empty-img'>
             </div>    
@@ -22,6 +21,8 @@ const Card = (props) => {
             <div className='round-details-button'>
                 <div className="dot"></div>
             </div>
+
+             {/*card details text bottom*/}
             <div className='card-details'>
                 <div className="address-review">
                     <div className="address">
@@ -41,7 +42,7 @@ const Card = (props) => {
 
                     </div>
                 </div>
-                {/* <hr/> */}
+               
                 <div className="more-details">
                     <span>{noOfBedRoom} Bedrooms</span><span className="dot-details"></span>
                     <span>Up to {noOfGuests} Guests</span><span className="dot-details"></span>
